@@ -34,10 +34,8 @@ set showcmd
 "Always show status bar
 set laststatus=2
 set statusline=
-"Buffer number
-set statusline+=%n
-"Space, relative file path
-set statusline+=\ %f
+"Relative file path
+set statusline+=%f
 "Modified flag
 set statusline+=%m
 "Align, current line, slash, total lines
@@ -47,5 +45,5 @@ set statusline+=\ %v
 "Space, 0x, hex value of current char
 set statusline+=\ 0x%B
 
-"\b show buffers and optionally switch
-nnoremap <Leader>b :buffers<CR>:buffer<Space>
+"\b show buffers and enter :b
+nnoremap <Leader>b :buffers<CR>:b
