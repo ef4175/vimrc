@@ -30,6 +30,11 @@ set hidden
 "Show command
 set showcmd
 
+"Tab-completion
+"Tab once to show list and complete with longest
+"Tab again to show list and complete with full
+set wildmode=list:longest,list:full
+
 "Status bar
 "Always show status bar
 set laststatus=2
