@@ -52,3 +52,6 @@ set statusline+=\ 0x%B
 
 "\b show buffers and enter :b
 nnoremap <Leader>b :buffers<CR>:b
+
+"Disable shift k
+map <S-k> <Nop>
