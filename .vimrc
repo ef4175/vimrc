@@ -55,3 +55,6 @@ nnoremap <Leader>b :buffers<CR>:b
 
 "Disable shift k
 map <S-k> <Nop>
+
+"Disable viminfo
+set viminfofile=NONE
