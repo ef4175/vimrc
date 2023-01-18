@@ -21,7 +21,7 @@ set nowrap
 syntax on
 
 "Color columns
-highlight ColorColumn ctermbg=0
+highlight ColorColumn ctermbg=255
 set colorcolumn=79
 
 "Do not warn when switching buffers without saving
